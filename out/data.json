@@ -1,0 +1,592 @@
+{
+    "project": {},
+    "files": {
+        "application\\controllers\\machine.controller.js": {
+            "name": "application\\controllers\\machine.controller.js",
+            "modules": {
+                "MachineController": 1
+            },
+            "classes": {
+                "MachineController": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "application\\controllers\\pod.controller.js": {
+            "name": "application\\controllers\\pod.controller.js",
+            "modules": {
+                "PodController": 1
+            },
+            "classes": {
+                "PodController": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "application\\database\\models\\flavor.model.js": {
+            "name": "application\\database\\models\\flavor.model.js",
+            "modules": {
+                "models/Flavor": 1
+            },
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "application\\database\\models\\machine.model.js": {
+            "name": "application\\database\\models\\machine.model.js",
+            "modules": {
+                "models/Machine": 1
+            },
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "application\\database\\models\\pod.model.js": {
+            "name": "application\\database\\models\\pod.model.js",
+            "modules": {
+                "models/Pod": 1
+            },
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "application\\database\\models\\size.model.js": {
+            "name": "application\\database\\models\\size.model.js",
+            "modules": {
+                "models/Size": 1
+            },
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "application\\database\\models\\type.model.js": {
+            "name": "application\\database\\models\\type.model.js",
+            "modules": {
+                "models/Type": 1
+            },
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "application\\database\\seeds\\machines.seeder.js": {
+            "name": "application\\database\\seeds\\machines.seeder.js",
+            "modules": {
+                "seeds/MachinesSeeder": 1
+            },
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "application\\database\\seeds\\pods.seeder.js": {
+            "name": "application\\database\\seeds\\pods.seeder.js",
+            "modules": {
+                "seeds/PodsSeeder": 1
+            },
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "application\\database\\db.js": {
+            "name": "application\\database\\db.js",
+            "modules": {
+                "database/DatabaseConnection": 1
+            },
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "application\\helpers\\commons.js": {
+            "name": "application\\helpers\\commons.js",
+            "modules": {
+                "helpers/Commons": 1
+            },
+            "classes": {
+                "helper/Commons": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "application\\routes\\index.js": {
+            "name": "application\\routes\\index.js",
+            "modules": {
+                "router": 1
+            },
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "application\\validations\\machines.request.js": {
+            "name": "application\\validations\\machines.request.js",
+            "modules": {
+                "validations/MachinesRequestValidator": 1
+            },
+            "classes": {
+                "MachinesRequestValidator": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "application\\validations\\pods.request.js": {
+            "name": "application\\validations\\pods.request.js",
+            "modules": {
+                "validations/PodsRequestValidator": 1
+            },
+            "classes": {
+                "PodsRequestValidator": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app.js": {
+            "name": "app.js",
+            "modules": {
+                "app.js": 1
+            },
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {
+        "MachineController": {
+            "name": "MachineController",
+            "submodules": {},
+            "elements": {},
+            "classes": {
+                "MachineController": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "application\\controllers\\machine.controller.js",
+            "line": 3,
+            "description": "this modules contains Machine routes handler methods."
+        },
+        "PodController": {
+            "name": "PodController",
+            "submodules": {},
+            "elements": {},
+            "classes": {
+                "PodController": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "application\\controllers\\pod.controller.js",
+            "line": 3,
+            "description": "this modules contains Pods routes handler methods."
+        },
+        "models/Flavor": {
+            "name": "models/Flavor",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "application\\database\\models\\flavor.model.js",
+            "line": 27,
+            "description": "Flavor Schema Mongo Model."
+        },
+        "models/Machine": {
+            "name": "models/Machine",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "application\\database\\models\\machine.model.js",
+            "line": 43,
+            "description": "Machine Schema Mongo Model."
+        },
+        "models/Pod": {
+            "name": "models/Pod",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "application\\database\\models\\pod.model.js",
+            "line": 43,
+            "description": "Pod Schema Mongo Model."
+        },
+        "models/Size": {
+            "name": "models/Size",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "application\\database\\models\\size.model.js",
+            "line": 24,
+            "description": "Size Schema Mongo Model."
+        },
+        "models/Type": {
+            "name": "models/Type",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "application\\database\\models\\type.model.js",
+            "line": 24,
+            "description": "Type Schema Mongo Model."
+        },
+        "seeds/MachinesSeeder": {
+            "name": "seeds/MachinesSeeder",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "application\\database\\seeds\\machines.seeder.js",
+            "line": 99,
+            "description": "Machines Seeder module."
+        },
+        "seeds/PodsSeeder": {
+            "name": "seeds/PodsSeeder",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "application\\database\\seeds\\pods.seeder.js",
+            "line": 352,
+            "description": "Pods Seeder module."
+        },
+        "database/DatabaseConnection": {
+            "name": "database/DatabaseConnection",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "application\\database\\db.js",
+            "line": 30,
+            "description": "Database Connection module."
+        },
+        "helpers/Commons": {
+            "name": "helpers/Commons",
+            "submodules": {},
+            "elements": {},
+            "classes": {
+                "helper/Commons": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "application\\helpers\\commons.js",
+            "line": 1,
+            "description": "Commons Methods Module."
+        },
+        "router": {
+            "name": "router",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "application\\routes\\index.js",
+            "line": 23,
+            "description": "Router Module."
+        },
+        "validations/MachinesRequestValidator": {
+            "name": "validations/MachinesRequestValidator",
+            "submodules": {},
+            "elements": {},
+            "classes": {
+                "MachinesRequestValidator": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "application\\validations\\machines.request.js",
+            "line": 4,
+            "description": "Machines Request Validator Methods Module."
+        },
+        "validations/PodsRequestValidator": {
+            "name": "validations/PodsRequestValidator",
+            "submodules": {},
+            "elements": {},
+            "classes": {
+                "PodsRequestValidator": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "application\\validations\\pods.request.js",
+            "line": 4,
+            "description": "Pods Request Validator Methods Module."
+        },
+        "app.js": {
+            "name": "app.js",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "app.js",
+            "line": 28,
+            "description": "this modules contains the the setter of express.js,\n  basic headers security and database connection initialization.",
+            "type": "{e | (() => Express)}"
+        }
+    },
+    "classes": {
+        "MachineController": {
+            "name": "MachineController",
+            "shortname": "MachineController",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "MachineController",
+            "file": "application\\controllers\\machine.controller.js",
+            "line": 3,
+            "description": "This class contains Machine routes handlers."
+        },
+        "PodController": {
+            "name": "PodController",
+            "shortname": "PodController",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "PodController",
+            "namespace": "",
+            "file": "application\\controllers\\pod.controller.js",
+            "line": 3,
+            "description": "This class contains Machine routes handlers."
+        },
+        "helper/Commons": {
+            "name": "helper/Commons",
+            "shortname": "helper/Commons",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "helpers/Commons",
+            "namespace": "",
+            "file": "application\\helpers\\commons.js",
+            "line": 1,
+            "description": "this is a Common class with contain the common methods"
+        },
+        "MachinesRequestValidator": {
+            "name": "MachinesRequestValidator",
+            "shortname": "MachinesRequestValidator",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "validations/MachinesRequestValidator",
+            "namespace": "",
+            "file": "application\\validations\\machines.request.js",
+            "line": 4,
+            "description": "Machine request validator class"
+        },
+        "PodsRequestValidator": {
+            "name": "PodsRequestValidator",
+            "shortname": "PodsRequestValidator",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "validations/PodsRequestValidator",
+            "namespace": "",
+            "file": "application\\validations\\pods.request.js",
+            "line": 4,
+            "description": "Machine request validator class"
+        }
+    },
+    "elements": {},
+    "classitems": [
+        {
+            "file": "application\\controllers\\machine.controller.js",
+            "line": 8,
+            "description": "This method query from mongo and get all machine records or based on filter",
+            "itemtype": "method",
+            "name": "getMachines",
+            "params": [
+                {
+                    "name": "req",
+                    "description": ""
+                },
+                {
+                    "name": "res",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Promise<void>"
+            },
+            "class": "MachineController"
+        },
+        {
+            "file": "application\\controllers\\machine.controller.js",
+            "line": 28,
+            "itemtype": "property",
+            "name": "Machine.find().countDocuments()",
+            "description": "Provide count of total records in Machine collection",
+            "class": "MachineController"
+        },
+        {
+            "file": "application\\controllers\\machine.controller.js",
+            "line": 33,
+            "itemtype": "property",
+            "name": "Machine.find().skip(pageSize * (pageNumber - 1)).limit(pageSize)",
+            "description": "Provide all or matching records from Machine collection by pagination",
+            "class": "MachineController"
+        },
+        {
+            "file": "application\\controllers\\pod.controller.js",
+            "line": 8,
+            "itemtype": "method",
+            "name": "getPods",
+            "description": "This method query from mongo and get all pod records or based on filter",
+            "params": [
+                {
+                    "name": "req",
+                    "description": ""
+                },
+                {
+                    "name": "res",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Promise<void>"
+            },
+            "class": "PodController",
+            "module": "MachineController"
+        },
+        {
+            "file": "application\\controllers\\pod.controller.js",
+            "line": 30,
+            "itemtype": "property",
+            "name": "Pod.find().countDocuments()",
+            "description": "Provide count of total records in Pods collection",
+            "class": "PodController",
+            "module": "MachineController"
+        },
+        {
+            "file": "application\\controllers\\pod.controller.js",
+            "line": 35,
+            "itemtype": "property",
+            "name": "Pod.find().skip(pageSize * (pageNumber - 1)).limit(pageSize)",
+            "description": "Provide all or pods records from Pods collection by pagination",
+            "class": "PodController",
+            "module": "MachineController"
+        },
+        {
+            "file": "application\\database\\db.js",
+            "line": 8,
+            "description": "This is IFFE method to initiate connection with mongo",
+            "class": "helper/Commons",
+            "module": "seeds/PodsSeeder"
+        },
+        {
+            "file": "application\\helpers\\commons.js",
+            "line": 6,
+            "itemtype": "method",
+            "name": "errorFlatter",
+            "params": [
+                {
+                    "name": "error",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "String"
+            },
+            "description": "This method receives the error Array of Object from revalidator\nand generate single string",
+            "class": "helper/Commons",
+            "module": "database/DatabaseConnection"
+        },
+        {
+            "file": "application\\routes\\index.js",
+            "line": 11,
+            "itemtype": "property",
+            "name": "",
+            "description": "get all or filtered Machines",
+            "class": "MachinesRequestValidator",
+            "module": "helpers/Commons"
+        },
+        {
+            "file": "application\\routes\\index.js",
+            "line": 17,
+            "itemtype": "property",
+            "name": "",
+            "description": "get all or filtered pods",
+            "class": "MachinesRequestValidator",
+            "module": "helpers/Commons"
+        },
+        {
+            "file": "application\\validations\\machines.request.js",
+            "line": 9,
+            "itemtype": "method",
+            "name": "machineReqValidator",
+            "description": "This method is a middleware with take the body as parameter,\nschema crated for revalidator library. Validates the request parameters\npass context to next method if success otherwise return 400 HTTP code",
+            "return": {
+                "description": "",
+                "type": "Promise<void>"
+            },
+            "class": "MachinesRequestValidator",
+            "module": "router"
+        },
+        {
+            "file": "application\\validations\\pods.request.js",
+            "line": 9,
+            "itemtype": "method",
+            "name": "podReqValidator",
+            "description": "This method is a middleware with take the body as parameter,\nschema crated for revalidator library. Validates the request parameters\npass context to next method if success otherwise return 400 HTTP code",
+            "return": {
+                "description": "",
+                "type": "Promise<void>"
+            },
+            "class": "PodsRequestValidator",
+            "module": "validations/MachinesRequestValidator"
+        }
+    ],
+    "warnings": [
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " application\\controllers\\machine.controller.js:8"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " application\\controllers\\pod.controller.js:8"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " application\\helpers\\commons.js:6"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " application\\validations\\machines.request.js:9"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " application\\validations\\pods.request.js:9"
+        },
+        {
+            "message": "Missing item type\nThis is IFFE method to initiate connection with mongo",
+            "line": " application\\database\\db.js:8"
+        }
+    ]
+}

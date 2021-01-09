@@ -15,8 +15,10 @@ $ npm install
 ```
 
 ### ENV
-
-Change ENV in .env from TEST to DEV
+```steps
+1) Change .env.example to .evn
+2) Change ENV variable from TEST to DEV 
+```
 
 ### Run Database Seeders
 ```shell script
