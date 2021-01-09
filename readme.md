@@ -14,7 +14,8 @@ Install the dependencies
 $ npm install
 ```
 
-###ENV
+### ENV
+
 Change ENV in .env from TEST to DEV
 
 ### Run Database Seeders
